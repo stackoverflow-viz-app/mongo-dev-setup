@@ -12,3 +12,6 @@
 ## Import dataset to mongodb
 * Move dataset to {path}/dataset/data.csv
 * import dataset to mongodb ```./dataset/import.sh```
+
+## Explore dataset via browser
+```http://localhost:8081```
