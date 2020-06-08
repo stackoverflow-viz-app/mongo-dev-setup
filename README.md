@@ -10,8 +10,10 @@
 * Remove containers : ```docker-compose down```
 
 ## Import dataset to mongodb
+* Download stackoverflow survey [dataset](https://drive.google.com/file/d/1QOmVDpd8hcVYqqUXDXf68UMDWQZP0wQV/view)
 * Move dataset to {path}/dataset/data.csv
-* import dataset to mongodb ```./dataset/import.sh```
+* Get container bash via ```docker exec -it mongodb-server /bin/bash```
+* import dataset ```/server_dataset/import.sh```
 
 ## Explore dataset via browser
 ```http://localhost:8081```
