@@ -1,0 +1,5 @@
+# Mongodb metadata files
+.data/*
+
+# Dataset file
+/dataset/data.csv
